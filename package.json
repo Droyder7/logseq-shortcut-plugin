@@ -1,0 +1,22 @@
+{
+    "name": "logseq-shortcut-plugin",
+    "version": "0.2.0",
+    "description": "Some new useful keyboard shortcuts with some existing ones",
+    "author": "Droyder",
+    "license": "MIT",
+    "scripts": {
+        "dev": "parcel ./index.html --public-url ./",
+        "build": "parcel build --public-url ./ --no-source-maps index.html"
+    },
+    "logseq": {
+        "id": "logseq-shortcut-plugin",
+        "main": "dist/index.html",
+        "icon": "logo.png"
+    },
+    "dependencies": {
+        "@logseq/libs": "^0.0.1-alpha.35"
+    },
+    "devDependencies": {
+        "parcel": "^2.0.0"
+    }
+}
