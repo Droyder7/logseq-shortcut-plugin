@@ -73,7 +73,7 @@ export function splitBlock(blockContent: string) {
             } else {
                 // 缩进没对齐的情况
                 console.log(JSON.stringify(top));
-                top.block.children.push(nextBlock);
+                top.block.children?.push(nextBlock);
                 stack.push({
                     indent,
                     block: nextBlock,
